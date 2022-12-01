@@ -2,9 +2,10 @@
 import ListNames from "./components/ListNames.vue";
 import Navbar from "./components/Navbar.vue";
 import CompToComp from "./components/CompToComp.vue";
-import Jumbotron from "./components/Jumbotron.vue";
+import AppHero from "./components/AppHero.vue";
+import AppTitle from "./components/AppTitle.vue";
 export default {
-  components: { ListNames, Navbar, CompToComp, Jumbotron },
+  components: { ListNames, Navbar, CompToComp, AppHero, AppTitle },
   data() {
     return {};
   },
@@ -13,10 +14,11 @@ export default {
 
 <template>
   <div class="container text-center">
+    <AppTitle></AppTitle>
     <Navbar></Navbar>
     <ListNames></ListNames>
     <CompToComp></CompToComp>
-    <Jumbotron></Jumbotron>
+    <AppHero></AppHero>
   </div>
 </template>
 

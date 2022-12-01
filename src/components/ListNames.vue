@@ -8,7 +8,7 @@
     </div>
     <div class="flex-column flex-grow-1">
       <div class="bg-danger px-3" v-for="(user, i) in usersList">
-        {{ user.name }} {{ user.surname }} {{ user.hello }}
+        {{ user.name }} {{ user.surname }}
       </div>
     </div>
     <div class="flex-column">
@@ -26,7 +26,6 @@ export default {
         {
           name: "Paolo",
           surname: "Lo Re",
-          hello: "La mia prima app con Vite",
         },
         {
           name: "Giovanni",

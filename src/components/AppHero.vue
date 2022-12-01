@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-image text-start">The witcher 3 Wild Hunt</div>
+  <div class="bg-image text-start">The witcher 3 Wild Hunt JUMBOTRON</div>
 </template>
 <script>
 export default {};
