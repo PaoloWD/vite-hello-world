@@ -1,7 +1,8 @@
 <script>
 import SayHello from "./components/SayHello.vue";
+import SayGoodbye from "./components/SayGoodbye.vue";
 export default {
-  components: { SayHello },
+  components: { SayHello, SayGoodbye },
   data() {
     return {};
   },
@@ -11,6 +12,7 @@ export default {
 <template>
   <div class="container">
     <SayHello></SayHello>
+    <SayGoodbye></SayGoodbye>
   </div>
 </template>
 
