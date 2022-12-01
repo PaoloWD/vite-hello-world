@@ -1,4 +1,5 @@
 <template>
+  <h1>Stampo una lista v-for da un component</h1>
   <div class="d-flex">
     <div class="flex-column">
       <div class="bg-success px-3" v-for="(user, i) in usersList">

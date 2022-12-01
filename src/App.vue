@@ -1,9 +1,9 @@
 <script>
 import ListNames from "./components/ListNames.vue";
-import SayGoodbye from "./components/SayGoodbye.vue";
 import Navbar from "./components/Navbar.vue";
+import CompToComp from "./components/CompToComp.vue";
 export default {
-  components: { ListNames, SayGoodbye, Navbar },
+  components: { ListNames, Navbar, CompToComp },
   data() {
     return {};
   },
@@ -14,7 +14,7 @@ export default {
   <div class="container text-center">
     <Navbar></Navbar>
     <ListNames></ListNames>
-    <SayGoodbye></SayGoodbye>
+    <CompToComp></CompToComp>
   </div>
 </template>
 

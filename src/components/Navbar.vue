@@ -1,4 +1,5 @@
 <template lang="">
+  <h1>Creo una nav con un component</h1>
   <div>
     <div class="justify-content-between d-flex navbar align-items-center">
       <ul class="d-flex gap-3 justify-content-between align-items-center">
