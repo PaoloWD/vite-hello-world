@@ -10,7 +10,7 @@ export default {
 </script>
 
 <template>
-  <div class="container">
+  <div class="container text-center">
     <SayHello></SayHello>
     <SayGoodbye></SayGoodbye>
   </div>
