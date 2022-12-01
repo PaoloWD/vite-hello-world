@@ -9,11 +9,14 @@
             role="button"
             data-bs-toggle="dropdown"
             aria-expanded="false"
+            @click="onClickAlert()"
           >
             Drop 1
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li>
+              <a class="dropdown-item" href="#">Action</a>
+            </li>
             <li><a class="dropdown-item" href="#">Another action</a></li>
             <li><a class="dropdown-item" href="#">Something else here</a></li>
           </ul>
@@ -25,6 +28,7 @@
             role="button"
             data-bs-toggle="dropdown"
             aria-expanded="false"
+            @click="onClickAlert()"
           >
             Drop 2
           </a>
@@ -41,6 +45,7 @@
             role="button"
             data-bs-toggle="dropdown"
             aria-expanded="false"
+            @click="onClickAlert()"
           >
             Drop 3
           </a>
@@ -59,6 +64,7 @@
             role="button"
             data-bs-toggle="dropdown"
             aria-expanded="false"
+            @click="onClickAlert()"
           >
             Drop 4
           </a>
@@ -75,6 +81,7 @@
             role="button"
             data-bs-toggle="dropdown"
             aria-expanded="false"
+            @click="onClickAlert()"
           >
             Drop 5
           </a>
@@ -91,6 +98,7 @@
             role="button"
             data-bs-toggle="dropdown"
             aria-expanded="false"
+            @click="onClickAlert()"
           >
             Drop 6
           </a>
@@ -105,7 +113,16 @@
   </div>
 </template>
 <script>
-export default {};
+export default {
+  data() {
+    return {};
+  },
+  methods: {
+    onClickAlert() {
+      alert("Hai Cliccato il DropDown");
+    },
+  },
+};
 </script>
 <style scoped>
 li {
