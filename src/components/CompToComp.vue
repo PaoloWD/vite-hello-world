@@ -4,7 +4,10 @@
       <h1>Prendo un component da un altro component</h1>
       <ul>
         <li>
-          <a href="">Il css di questo file non vede il css dell'altro file</a>
+          <a href="" @click="onClickAlert"
+            >Il css di questo file non vede nè il css dell'altro file nè il
+            js</a
+          >
         </li>
       </ul>
     </div>
