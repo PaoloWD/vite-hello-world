@@ -1,6 +1,7 @@
 <template>
   <div>
     <h2>{{ getSayHello() }}</h2>
+    <a href="">Ciao</a>
   </div>
 </template>
 <script>
