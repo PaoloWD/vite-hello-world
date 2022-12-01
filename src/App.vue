@@ -1,9 +1,9 @@
 <script>
-import SayHello from "./components/SayHello.vue";
+import ListNames from "./components/ListNames.vue";
 import SayGoodbye from "./components/SayGoodbye.vue";
 import Navbar from "./components/Navbar.vue";
 export default {
-  components: { SayHello, SayGoodbye, Navbar },
+  components: { ListNames, SayGoodbye, Navbar },
   data() {
     return {};
   },
@@ -13,7 +13,7 @@ export default {
 <template>
   <div class="container text-center">
     <Navbar></Navbar>
-    <SayHello></SayHello>
+    <ListNames></ListNames>
     <SayGoodbye></SayGoodbye>
   </div>
 </template>
